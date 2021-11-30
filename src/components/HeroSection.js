@@ -176,7 +176,7 @@ export default function HeroSection() {
               <ul>
                 <li>
                   <a
-                    href="http://facebook.com/webcifar"
+                    href="http://facebook.com/rahatkabir007"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -185,29 +185,20 @@ export default function HeroSection() {
                 </li>
                 <li>
                   <a
-                    href="http://twitter.com/webcifar"
+                    href="https://github.com/rahatkabir007"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    TW
+                    GH
                   </a>
                 </li>
                 <li>
                   <a
-                    href="http://isntagram.com/web_cifar"
+                    href="https://www.linkedin.com/in/rahatkabir007/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    IG
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="http://webcifar.com"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    LI
+                    LD
                   </a>
                 </li>
               </ul>
