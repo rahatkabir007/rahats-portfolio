@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import HeroImg from '../assets/images/hero.png';
-import Button from './Button';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
 import PText from './PText';
@@ -161,11 +160,30 @@ export default function HeroSection() {
           </div>
           <div className="hero__info">
             <PText>
-              I am working as a freelance web designer and developer for 4
-              years. I love to design and make new web experiences for the
-              people.
+              I am working as a Junior Web Developer for 1 year. I love to
+              develop various websites with unique functionalities.
             </PText>
-            <Button btnText="see my works" btnLink="/projects" />
+            <a
+              href="rahatsresume.pdf"
+              download="Rahat's Resume"
+              style={{ textDecoration: 'none' }}
+            >
+              <button
+                type="button"
+                style={{
+                  border: 'none',
+                  borderRadius: '10px',
+                  backgroundColor: 'grey',
+                  color: 'black',
+                  padding: '20px',
+                  margin: '10px 0',
+                  fontSize: '20px',
+                  cursor: 'pointer',
+                }}
+              >
+                Download Resume
+              </button>
+            </a>
           </div>
           <div className="hero__social">
             <div className="hero__social__indicator">
